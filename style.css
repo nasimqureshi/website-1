@@ -15,10 +15,10 @@ header {
 ul {
     float: right;
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 60px;
     min-height: 400px;
     margin-right: 60px;
-    font-size: 17;
+    font-size: 27;
 }
 ul li {
     display: inline-block;
@@ -33,4 +33,15 @@ ul li a {
 ul li a:hover {
     background-color: #fff;
     color: #000;
+}
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+img { 
+    float: left;
+    width: 100px;
+    height: auto;
+    color: transparent;
+    padding: 20px 20px;
 }
