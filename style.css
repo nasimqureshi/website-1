@@ -18,7 +18,7 @@ ul {
     margin-top: 60px;
     min-height: 400px;
     margin-right: 40px;
-    font-size: 27;
+    font-size: 17px;
 }
 ul li {
     display: inline-block;
@@ -40,9 +40,13 @@ ul li.active a {
 }
 img { 
    float: left;
-   width: 100px;
+   width: 200px;
    height: auto;
    padding: 20px 0 0 20px;
+}
+.main {
+    width: 1200px;
+    margin: auto;
 }
 .title {
     position: absolute;
@@ -90,4 +94,13 @@ img {
 .main ul li:hover .sub-menu ul{
     display: block;
     margin: 6px;
+}
+..main ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 3px;
 }
