@@ -39,9 +39,17 @@ ul li.active a {
     color: #000;
 }
 img { 
-    float: left;
-    width: 100px;
-    height: auto;
-    color: transparent;
-    padding: 20px 20px;
+   float: left;
+   width: 100px;
+   height: auto;
+   padding: 20px 0 0 20px;
+}
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+}
+.title h1 {
+    color: #fff;
+    font-size: 70px;
 }
